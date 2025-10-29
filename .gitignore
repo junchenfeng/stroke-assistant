@@ -1,0 +1,48 @@
+data/*
+diagnosis/*
+
+# 环境变量和敏感信息
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Poetry
+poetry.lock
+
+# 生成的视频文件
+*.mp4
+*.avi
+*.mov
+
+# 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+

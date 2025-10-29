@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "stroke-assistant"
+version = "0.1.0"
+description = "CT图像序列转MP4视频工具"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.8.0"
+openai = "^1.0.0"
+python-dotenv = "^1.0.0"
+pdf2image = "^1.16.0"
+pillow = "^10.0.0"
+pydantic = "^2.0.0"
+markitdown = {extras = ["all"], version = "^0.0.1"}
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
